@@ -1,7 +1,7 @@
 # LineBot
 LineBot for pet's questions
 
-Controllers
+Controllers資料夾
 
 
 TestLUISController.cs
@@ -19,6 +19,14 @@ PythonApplication1.py
 TestQnAControllers.cs
 //主要用以QnA Maker客服系統
 
+APP_Start資料夾
+
+
+WebApiConfig.cs
+//Web API 設定和服務、選擇Web API路由
+
+
+LineBot資料夾
 
 default.aspx
 //架設網頁用以測試WebHook運作是否正常
@@ -26,12 +34,6 @@ default.aspx
 
 default.aspx.cs
 //網頁內所呈現的畫面及內容
-
-APP_Start
-
-
-WebApiConfig.cs
-//Web API 設定和服務、選擇Web API路由
 
 
 Global.asax.cs
