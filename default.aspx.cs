@@ -10,8 +10,8 @@ namespace LUIS
 {
     public partial class _default : System.Web.UI.Page
     {
-        const string channelAccessToken = "!!!!! 改成自己的ChannelAccessToken !!!!!";
-        const string AdminUserId= "!!!改成你的AdminUserId!!!";
+        const string channelAccessToken = "ChannelAccessToken";
+        const string AdminUserId= "AdminUserId";
 
         protected void Page_Load(object sender, EventArgs e)
         {
