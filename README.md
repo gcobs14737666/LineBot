@@ -1,7 +1,7 @@
 # LineBot
 LineBot for pet's questions
 
-
+Controllers
 TestLUISController.cs
 //程式主體，以LUIS語意辨識回傳的值來判斷並選擇適當得回應
 
@@ -25,7 +25,7 @@ default.aspx
 default.aspx.cs
 //網頁內所呈現的畫面及內容
 
-
+APP_Start
 WebApiConfig.cs
 //Web API 設定和服務、選擇Web API路由
 
