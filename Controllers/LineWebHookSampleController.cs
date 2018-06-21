@@ -9,8 +9,8 @@ namespace LUIS.Controllers
 {
     public class LineBotWebHookController : isRock.LineBot.LineWebHookControllerBase
     {
-        const string channelAccessToken = "!!!!! 改成自己的ChannelAccessToken !!!!!";
-        const string AdminUserId= "!!!改成你的AdminUserId!!!";
+        const string channelAccessToken = "ChannelAccessToken";
+        const string AdminUserId= "AdminUserId";
 
         [Route("api/LineWebHookSample")]
         [HttpPost]
@@ -45,3 +45,4 @@ namespace LUIS.Controllers
         }
     }
 }
+
